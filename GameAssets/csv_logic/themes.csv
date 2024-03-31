@@ -1,0 +1,13 @@
+Name,FileName,ExportName,ParticleFileName,ParticleExportName,ParticleStyle,ParticleVariations,ThemeMusic,UseInLevelSelection
+string,string,string,string,string,string,int,string,boolean
+Default,sc/background_basic.sc,bgr,,,,,MenuMusic,true
+Bazaar S1,sc/background_t_bazaar.sc,bgr_t_bazaar,,,,,Brawzaar_menu_muzak,true
+Monsters S2,sc/background_scity.sc,bgr_scity,,,,,Monsterbrawl_menu_muzak,true
+Giftshop S3,sc/background_giftshop.sc,bgr_giftshop,,,,,Starpark_Menu_Music,true
+Snowtel S4,sc/background_snowtel.sc,bgr_snowtel,,,,,Snowtel_Menu,true
+StarrForce S5,sc/background_ox.sc,bgr_ox,,,,,Space_Brawl_Menu,true
+Velocirapids,sc/background_vp.sc,bgr_vp,,,,,Summer_Brawl_Menu_Muzak,true
+FairyTale,sc/background_ft.sc,bgr_ft,,,,,Fairytale_Menu,true
+Brawlywood,sc/background_brawlywood.sc,bgr_brawlywood,,,,,Brawlywood_Menu,true
+LNY22,sc/background_lny22.sc,bgr_lny22,,,,,Retro_Fight_Menu,true
+Biodome,sc/background_biodome.sc,bgr_biodome,,,,,Biodome_Menu,true
