@@ -1,0 +1,21 @@
+{
+  "MongoConnectionURL": "",
+
+  "StarPoints": 0,
+  "Tickets": 0,
+  "Gold": 1000,
+  "Gems": 40,
+  "Trophies": 0,
+  "ExperiencePoints": 100,
+  "BrawlBoxTokens": 1000,
+  "BigBoxTokens": 10,
+  "Region": "RO",
+  "ThemeID": 5,
+  "ContentCreatorCodes": ["mt brawl"],
+  "BannedIPs": [],
+  "Maintenance": false,
+  "SecondsTillMaintenanceOver": 3600,
+  "Patch": false,
+  "PatchURL": "http://192.168.0.103:8080/",
+  "UpdateURL": ""
+}

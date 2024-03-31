@@ -1,0 +1,163 @@
+
+an error has occurred at 2024-03-16 10:15:21.668380:
+Traceback (most recent call last):
+  File "/storage/emulated/0/Serv/PBSS-29/PBSS-29/DataBase/SQLManager.py", line 29, in load_data
+    return json.loads(loaded[0][2])["DATA"]
+                      ~~~~~~^^^
+IndexError: list index out of range
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 11:50:33.137315:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 29, in load_data
+    return json.loads(loaded[0][2])["DATA"]
+IndexError: list index out of range
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:06:08.885768:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:06:08.886246:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 21, in insert
+    self.cursor.execute(f"INSERT INTO main (auth, Data) VALUES (?, ?)", (key, json.dumps(data, ensure_ascii=False)))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:06:08.887228:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:06:27.456688:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:06:27.457291:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 21, in insert
+    self.cursor.execute(f"INSERT INTO main (auth, Data) VALUES (?, ?)", (key, json.dumps(data, ensure_ascii=False)))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:06:27.458371:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:08:38.652705:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:08:38.653251:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 21, in insert
+    self.cursor.execute(f"INSERT INTO main (auth, Data) VALUES (?, ?)", (key, json.dumps(data, ensure_ascii=False)))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:08:38.654253:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:09:44.343576:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:09:44.344094:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 21, in insert
+    self.cursor.execute(f"INSERT INTO main (auth, Data) VALUES (?, ?)", (key, json.dumps(data, ensure_ascii=False)))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:09:44.344939:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:10:32.230069:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:10:32.230594:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 21, in insert
+    self.cursor.execute(f"INSERT INTO main (auth, Data) VALUES (?, ?)", (key, json.dumps(data, ensure_ascii=False)))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:10:32.231513:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:11:15.569405:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:11:15.569744:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 21, in insert
+    self.cursor.execute(f"INSERT INTO main (auth, Data) VALUES (?, ?)", (key, json.dumps(data, ensure_ascii=False)))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:11:15.570448:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:12:42.071936:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:12:42.072501:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 21, in insert
+    self.cursor.execute(f"INSERT INTO main (auth, Data) VALUES (?, ?)", (key, json.dumps(data, ensure_ascii=False)))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
+an error has occurred at 2024-03-16 14:12:42.073515:
+Traceback (most recent call last):
+  File "/home/container/DataBase/SQLManager.py", line 27, in load_data
+    self.cursor.execute(f"SELECT * from main where auth=?", (key, ))
+sqlite3.DatabaseError: database disk image is malformed
+
+--------------------------------------------------
